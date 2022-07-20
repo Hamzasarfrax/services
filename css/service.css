@@ -366,8 +366,8 @@ margin-bottom: 3px;
         @media (max-width:361px) {
           .drop-margin{
         width: 100%;
-        left: 90px;
-      top:-50%;
+     top: -48%;
+   
           }
      
           .likes{
@@ -378,7 +378,7 @@ margin-bottom: 3px;
              }
 
 
-             @media (max-width:361px) {
+             @media (max-width:351px) {
 
                .drop-margin{
                     width: 100%;
