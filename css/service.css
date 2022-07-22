@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 .contain-color{
      background-color: white;
      margin-left: 20px;
@@ -20,44 +31,45 @@
 width: 80vw; */
 }
 
-.text-insta{
+.contain-color .text-insta{
      margin-top: 10px;
 
 }
 
-.space{
+.contain-color .space{
      margin-left: 20px;
 }
 
-.div{
+.contain-color .div{
      margin-right: 20px;
      margin-bottom: 20px;
      color: purple;
      text-transform: capitalize;
 }
 
-.drop-margin{
+.contain-color .drop-margin{
      position: relative;
      top: -30px;
      left: 150px;
 }
 
-.drop-main{
+.contain-color .drop-main{
      margin-top: 90px;
 }
 
-.hr{
-     width: 90%;
+.contain-color .hr{
+  width: 90%;  
+
 }
 
-.batan-add{
+.contain-color .button-admin-service button{
      text-transform: capitalize;
      background-color: rgb(241, 235, 235);
      width: 95%;
      opacity: 0.5;
 }
 
-.hide{
+.contain-color .hide{
      color: purple;
      text-transform: capitalize;
      margin-left: 60%;
@@ -74,7 +86,7 @@ width: 80vw; */
 
 @media  (min-width:830px) and (max-width:1280px) {
 
-     .batn-adjust{
+     .contain-color .batn-adjust{
          
           position: relative;
           left: -100%;
@@ -85,14 +97,14 @@ width: 80vw; */
         }
 
         @media  (min-width:830px) and (max-width:992px) {
-.search-container{
+          .contain-color .search-container{
 margin-top: 20px;
 }
         }
 
 
 @media (min-width:768px) and (max-width:992px) {
-  .font{
+     .contain-color  .font{
      width: 100%;
      font-size: 15px;
   }   
@@ -185,25 +197,25 @@ padding-bottom: 2rem;
      
      }
 
-     .drop-margin{
+     .contain-color .drop-margin{
         padding-top: 10px;
   
      }
      .dropdown-toggle{
           font-size: 10px;
      }
-     .hr{
+     .contain-color  .hr{
           width: 100%;
          padding-left: 50px;
      }
 
-     .batan-add{
+     .contain-color  .batan-add{
           text-transform: capitalize;
           background-color: rgb(234, 225, 234);
      width: 90vw;
      }
 
-     .free{
+     .contain-color .free{
           padding-top: 7px;
        position: relative;
        left: 25px;
@@ -239,7 +251,7 @@ padding-bottom: 2rem;
     
      }  
 
-     .dropdown-toggle{
+     .contain-color .dropdown-toggle{
           font-size: 10px;
     position: relative;
     bottom: 5px;
@@ -262,7 +274,7 @@ padding-bottom: 2rem;
           color: black;
      }
 
-     .batan-add{
+     .contain-color .batan-add{
           text-transform: capitalize;
           background-color: rgb(234, 225, 234);
          
@@ -328,10 +340,10 @@ padding-bottom: 2rem;
 
 
    @media (max-width:350px) {
-     .font{
+     .contain-color   .font{
           font-size: 9px;
      }
-     .free{
+     .contain-color  .free{
           
           position: relative;
           bottom: 9px;
@@ -340,16 +352,16 @@ padding-bottom: 2rem;
    }
 
    @media (max-width:490px) {
-.batan-add{
+     .contain-color .batan-add{
      width: 90vw;
 }
 
-.drop-margin{
+.contain-color .drop-margin{
 left: 120px;
 margin-bottom: 3px;
 }
 
-.hide{
+.contain-color .hide{
      margin-left: 85%;
 }
 
@@ -358,7 +370,7 @@ margin-bottom: 3px;
 }
 
 
-.search-container{
+.contain-color .search-container{
   position: relative;
   left: 2%;
 }
@@ -366,7 +378,7 @@ margin-bottom: 3px;
    }
 
    @media (max-width:392px) {
-.drop-margin{
+     .contain-color .drop-margin{
   left: 95px;
   width: 100px;
 }
@@ -374,11 +386,11 @@ margin-bottom: 3px;
    }
 
    @media (max-width:380px) {
-     .drop-margin{
+     .contain-color   .drop-margin{
    width: 100%;
      }
 
-     .likes{
+     .contain-color  .likes{
         
           width: 100px;
      }
@@ -387,13 +399,13 @@ margin-bottom: 3px;
 
 
         @media (max-width:361px) {
-          .drop-margin{
+          .contain-color  .drop-margin{
         width: 100%;
      top: -48%;
    
           }
      
-          .likes{
+          .contain-color  .likes{
              
                width: 100px;
           }
@@ -403,7 +415,7 @@ margin-bottom: 3px;
 
              @media (max-width:351px) {
 
-               .drop-margin{
+               .contain-color   .drop-margin{
                     width: 100%;
                     left: 95px;
                   top:-48%;
