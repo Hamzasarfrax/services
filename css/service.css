@@ -13,8 +13,38 @@
 width: 80vw; */
 }
 
-.services-secondary .contain-color .text-insta {
+/* .services-secondary .contain-color .text-insta {
+  background-color: blue;
   margin-top: 10px;
+} */
+.dropdown-menu {
+  margin-right: 990px;
+  width: 2rem;
+
+}
+
+.dropdown-menu .dropdown-item {
+
+  position: relative;
+  left: -40px;
+
+
+
+}
+
+.dropdown-menu .dropdown-item:hover {
+
+
+  width: 10rem;
+
+
+
+}
+
+.dropdown-menu.show {
+  display: block;
+  margin-left: 200px;
+
 }
 
 .services-secondary .contain-color .space {
@@ -32,6 +62,7 @@ width: 80vw; */
   position: relative;
   top: -30px;
   left: 150px;
+
 }
 
 .services-secondary .contain-color .drop-main {
@@ -49,7 +80,7 @@ width: 80vw; */
   opacity: 0.5;
 }
 
-.services-secondary .contain-color .hide {
+.services-secondary .contain-color .category-hide {
   color: purple;
   text-transform: capitalize;
   margin-left: 60%;
@@ -139,8 +170,7 @@ width: 80vw; */
 }
 
 @media (min-width: 250px) and (max-width: 576px) {
-  .font {
-  }
+  .font {}
 
   .services-secondary .contain-color {
     width: 100vw;
@@ -170,7 +200,7 @@ width: 80vw; */
     width: 90vw;
   }
 
-  .services-secondary .contain-color .free {
+  .services-secondary .contain-color .service-free {
     padding-top: 7px;
     position: relative;
     left: 25px;
@@ -282,7 +312,7 @@ width: 80vw; */
     font-size: 9px;
   }
 
-  .services-secondary .contain-color .free {
+  .services-secondary .contain-color .service-free {
     position: relative;
     bottom: 9px;
     left: 15px;
@@ -303,8 +333,7 @@ width: 80vw; */
     margin-left: 85%;
   }
 
-  .services-secondary .contain-colo .filter-btn {
-  }
+  .services-secondary .contain-colo .filter-btn {}
 
   .services-secondary .contain-color .search-container {
     position: relative;
@@ -324,7 +353,7 @@ width: 80vw; */
     width: 100%;
   }
 
-  .services-secondary .contain-color .likes {
+  .services-secondary .contain-color .category-service {
     width: 100px;
   }
 }
@@ -335,7 +364,7 @@ width: 80vw; */
     top: -48%;
   }
 
-  .services-secondary .contain-color .likes {
+  .services-secondary .contain-color .category-service {
     width: 100px;
   }
 }
