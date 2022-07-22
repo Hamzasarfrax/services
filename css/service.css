@@ -147,6 +147,15 @@ width: 80vw; */
     margin-top: 100px;
   }
 
+  .services-secondary .contain-color .button-admin-service button {
+
+    width: 100%;
+    opacity: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 5px;
+  }
+
   .services-secondary .contain-color .hr {
     width: 100%;
   }
@@ -154,6 +163,8 @@ width: 80vw; */
   .services-secondary .contain-color .line {
     position: relative;
   }
+
+
 
   .line::before {
     content: "";
@@ -194,10 +205,9 @@ width: 80vw; */
     padding-left: 50px;
   }
 
-  .contain-color .batan-add {
-    text-transform: capitalize;
-    background-color: rgb(234, 225, 234);
-    width: 90vw;
+  .contain-color .button-admin-service .pakage-btn {
+    margin-left: 10px;
+
   }
 
   .services-secondary .contain-color .service-free {
@@ -253,7 +263,7 @@ width: 80vw; */
     color: black;
   }
 
-  .services-secondary .contain-color .batan-add {
+  .services-secondary .contain-color .pakage-btn {
     text-transform: capitalize;
     background-color: rgb(234, 225, 234);
 
@@ -320,7 +330,7 @@ width: 80vw; */
 }
 
 @media (max-width: 490px) {
-  .services-secondary .contain-color .batan-add {
+  .services-secondary .contain-color .pakage-btn {
     width: 90vw;
   }
 
@@ -329,7 +339,7 @@ width: 80vw; */
     margin-bottom: 3px;
   }
 
-  .contain-color .hide {
+  .contain-color .category-hide {
     margin-left: 85%;
   }
 
