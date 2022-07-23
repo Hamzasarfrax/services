@@ -245,12 +245,13 @@
   .service-price {}
 
   .services-secondary .contain-color {
-    width: 105vw;
+    width: 120vw;
     margin-top: 100px;
     position: relative;
     left: -30px;
     font-size: 10px;
     padding-right: 60px;
+    
   }
 
   .services-secondary .contain-color .category-hide {
