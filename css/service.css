@@ -211,6 +211,10 @@
     padding-right: 60px;
   }
 
+  .services-secondary .contain-color .category-hide {
+margin-left: 68%;
+  }
+
   .services-secondary .service-row {
     width: 100%;
     left: 8%;
