@@ -93,6 +93,10 @@
   .services-secondary .contain-color {
     padding-left: 90px;
   }
+
+  .services-secondary .contain-color .category-hide {
+    margin-left: 57%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -197,6 +201,10 @@
   .services-secondary .contain-color .hr {
     opacity: 0;
   }
+
+  .services-secondary .contain-color .category-hide {
+    margin-left: 70%;
+  }
 }
 
 @media (min-width: 250px) and (max-width: 576px) {
@@ -212,7 +220,7 @@
   }
 
   .services-secondary .contain-color .category-hide {
-margin-left: 68%;
+    margin-left: 68%;
   }
 
   .services-secondary .service-row {
@@ -299,10 +307,10 @@ margin-left: 68%;
     font-size: 12px;
   }
 
-  .bi-list {
-    /* position: relative;
-     right: 32px; */
+  .services-secondary .contain-color .category-hide {
+    margin-left: 70%;
   }
+
 }
 
 /* 
